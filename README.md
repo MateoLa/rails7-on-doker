@@ -1,12 +1,6 @@
-![Ruby](https://github.com/ryanwi/rails7-on-docker/workflows/Ruby/badge.svg)
-
-Start here: https://github.com/ryanwi/rails7-on-docker/generate
-
 # Rails 7 on Docker demo application
 
 This app demonstrates Rails 7 with PostgreSQL, import maps, turbo, stimulus and hotwire, all running in Docker.
-
-**NOTE:** [There is also an example Rails 6 application working in Docker with Webpacker](https://github.com/ryanwi/rails-on-docker)
 
 ## Features
 
@@ -77,11 +71,7 @@ docker build -f production.Dockerfile .
 
 This app can be hosted wherever Ruby is supported and PostgreSQL databases can be provisioned.
 
-#### Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ryanwi/rails7-on-docker)
-
-NOTE: You will need to generate a production secret with `bin/rails secret` and set it as the `SECRET_KEY_BASE` environment variable.
+NOTE: In production you will need to generate a secret with `bin/rails secret` and set it as the `SECRET_KEY_BASE` environment variable.
 
 ## Credits/References
 
@@ -103,10 +93,6 @@ Dockerizing Ruby and Rails development](https://evilmartians.com/chronicles/ruby
 * [Rails 7 will have three great answers to JavaScript in 2021+](https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b)
 * [Hotwire Turbo Replacing Rails UJS](https://www.driftingruby.com/episodes/hotwire-turbo-replacing-rails-ujs)
 
-## Author
+#### Author
 
-**Ryan Williams**
-
-- <https://www.ryanwilliams.dev>
-- <https://twitter.com/ryanwi>
-- <https://github.com/ryanwi>
+[Ryan Williams](https://github.com/ryanwi)
